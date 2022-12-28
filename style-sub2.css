@@ -89,8 +89,14 @@ label {
     justify-content: space-between;
     align-items: center;
     height: 60px;
-    /* position: fixed; */
+    position: fixed;
+    top: 0;
 }
+
+.margin-nav {
+    margin-top: 150px;
+}
+
 .navbar-item{
     color: white;
     height: 100%;
@@ -169,10 +175,11 @@ body {
     padding: 10px 20px;
 }
 
-.body h4 {
-    text-align: center;
+body h4 {
+    text-align: left;
     margin-top: 25px;
-    font-size: 30px; 
+    font-size: 18px; 
+    padding-left: 80px;
 }
 
 .body p {
@@ -187,7 +194,6 @@ body {
 
 ::placeholder {
     color: grey;
-    text-align: center;
 }
 
 .input-field input {
@@ -203,4 +209,8 @@ body {
     outline: none;
     font-size: 18px;
     background: #d9d9d9;
+}
+
+.select option {
+    color: grey;
 }

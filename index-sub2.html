@@ -27,11 +27,9 @@
             </div>
         </div>
 
-        <div class="container">
-            <div class="header-box">
-                <h3>Booking</h3>
-            </div>
+        <div class="container margin-nav">
             <div class="box">
+                <b style="font-size: 200%; text-transform: uppercase;">Booking</b>
             <form name="RegisterForm" onsubmit="validateForm()">
                 <div class="input-field">
                     <h4>Họ và tên</h4>
@@ -39,13 +37,14 @@
                 </div>
                 <div class="input-field">
                     <h4>Giờ</h4>
-                    <select name="Time" id="time">
+                    <select name="time" id="time">
                       <option value="08:00">08:00</option>
                       <option value="12:00">12:00</option>
                       <option value="15:00">15:00</option>
                       <option value="20:00">20:00</option>
                     </select>
-                    <br><br>                </div>
+                    <br><br>                
+                </div>
                 <div class="input-field">
                     <h4>Số điện thoại</h4>
                     <input type="tel" placeholder="Số điện thoại của bạn" name="phone">
@@ -53,6 +52,14 @@
                 <div class="input-field">
                     <h4>Mail</h4>
                     <input type="email" placeholder="Mail của bạn" name="mail">
+                </div>
+                <div class="input-field">
+                    <h4>Hoạt động </h4>
+                    <select name="activities" id="activities">
+                      <option value="Broadcast">Broadcast</option>
+                      <option value="Analyze">Analyze</option>
+                    </select>
+                    <br><br>                
                 </div>
         
                 <div class="input-field">

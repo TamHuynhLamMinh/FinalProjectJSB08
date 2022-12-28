@@ -175,13 +175,14 @@ body {
     padding: 10px 20px;
 }
 
-.body h4 {
-    text-align: center;
+body h4 {
+    text-align: left;
     margin-top: 25px;
-    font-size: 30px; 
+    font-size: 18px; 
+    padding-left: 80px;
 }
 
-.body p {
+body p {
     text-align: center;
     margin-top: 10px;
     width: 1200px;
@@ -192,8 +193,7 @@ body {
 }
 
 ::placeholder {
-    color: black;
-    text-align: center;
+    color: grey;
 }
 
 .input-field input {

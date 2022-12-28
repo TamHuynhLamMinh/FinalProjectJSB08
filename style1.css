@@ -4,7 +4,10 @@
     box-sizing: border-box;
     font-family: 'Lora', serif;
     line-height: 1.5;
+    text-decoration: none;
 }
+
+
 .nav {
     color:white;
     background: linear-gradient(to right, #EE0979, #FF6A00); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
@@ -14,8 +17,14 @@
     justify-content: space-between;
     align-items: center;
     height: 60px;
-   /* position: fixed; */
+    position: fixed; 
+    top: 0;
 }
+
+.margin-nav {
+    margin-top: 80px;
+}
+
 .navbar-item{
     color: white;
     height: 100%;
@@ -120,4 +129,8 @@ body {
 
 .broadcast-button:hover {
     opacity : 0.5;
+}
+
+.details-link {
+    color: white;
 }

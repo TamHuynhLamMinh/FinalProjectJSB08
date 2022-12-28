@@ -3,7 +3,7 @@
     <meta charset="UTF-8">
     <title>Tet for the movie</title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./style-sub2.css">
     <script src="https://www.w3schools.com/lib/w3.js"></script>
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
@@ -23,41 +23,42 @@
                 <a href="./index.html" class="navbar-item navbar-button">Home</a>
                 <a href="./index1.html" class="navbar-item navbar-button">Event</a>
                 <a href="./index2.html" class="navbar-item navbar-button">Story</a>
-                <a href="#" class="navbar-item navbar-button">Registration</a>
-            </div>
-
-        </div>
-        <div id="home" class="w3-content">
-            <img class="slides" src="./img/pan1.jpg" width="100%">
-            <img class="slides" src="./img/pan2.jpg" width="100%">
-            <script>
-            w3.slideshow(".slides", 2000);
-        </script>
-        </div>
-        <div>
-            <div id="about" class="padding-32">
-                <h1 class="center"> Founder</h1>
-                <p> Some information about the project and its founder
-                </p>
-
-            </div>
-
-            <div class="row center member-container">
-
-                <div class="member-item">
-                    <p>Name</p>
-                    <img src="./img/mem1.jpg" style="width:60%;">
-                </div>
-                <div class="member-item">
-                    <p>Name</p>
-                    <img src="./img/mem2.jpg" style="width:60%;">
-                </div>
-                <div class="member-item">
-                    <p>Name</p>
-                    <img src="./img/mem3.jpg" style="width:60%;">
-                </div>
+                <a href="./index3.html" class="navbar-item navbar-button">Registration</a>
             </div>
         </div>
+
+        <div class="container">
+            <div class="header-box">
+                <h3>Booking</h3>
+            </div>
+            <div class="box">
+            <form name="RegisterForm" onsubmit="validateForm()">
+                <div class="input-field">
+                    <h4>Họ và tên</h4>
+                    <input type="text" placeholder="Họ tên đầy đủ của bạn" name="fname">
+                </div>
+                <div class="input-field">
+                    <h4>Giờ</h4>
+                    <input type="time" placeholder="Giờ của bạn" name="time">
+                </div>
+                <div class="input-field">
+                    <h4>Số điện thoại</h4>
+                    <input type="tel" placeholder="Số điện thoại của bạn" name="phone">
+                </div>
+                <div class="input-field">
+                    <h4>Mail</h4>
+                    <input type="email" placeholder="Mail của bạn" name="mail">
+                </div>
+        
+                <div class="input-field">
+                    <p id="validate"></p>
+                    <button type="submit">Submit</button>
+                </div>
+    
+            </form>
+            </div>
+        </div>
+
         <div class="contact row">
             <div class="logo">
                 <img src="./img/logo.jpg">
@@ -68,6 +69,6 @@
                 <h3>Phone number: 0123 456 789</h3>
             </div>
         </div>
-    </body>
-
+        </body>
+        <script src="./script-sub2.js"></script>
 </html>

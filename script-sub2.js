@@ -14,7 +14,7 @@ function myFunction() {
 function myFunction() {
     let x = document.getElementById("year").value;
     let text;
-    if (isNaN(x) || x < 0 || x > 9999999999) {
+    if (isNaN(x) || x < 0 || x > 2023) {
       text = "Input not valid";
     } else {
       text = "Input OK";

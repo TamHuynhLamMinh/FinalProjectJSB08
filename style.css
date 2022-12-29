@@ -31,7 +31,6 @@
 .navbar-item:hover{
     background-color: aliceblue;
     color: black;
-
 }
 .center {
     display: flex;
@@ -83,23 +82,25 @@ body {
     background: #d9d9d9;
     display: flex;
     flex-direction: row;
+    justify-content: center;
+
 }
 
 /* .logo {
     margin-right: 500px;
 } */
 
-.contact-info {
+/* .contact-info {
     margin-left: -33%;
     margin-top: 35px;
-}
+} */
 
-.logo {
+/* .logo {
     margin-right: 55%;
-}
+} */
 
 .logo img {
-    margin-left: 90px;
+    /* margin-left: 90px; */
     width: 130px;
 }
 
@@ -107,4 +108,58 @@ body {
     text-transform: uppercase;
     font-size: 1.5rem;
     letter-spacing: 2px;
+}
+
+.contact-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-logo img {
+    width: 40px;
+}
+
+.nav-item-container-logo {
+    display: flex;
+    flex-direction: column;
+   /* justify-content: space-around; */
+    margin-left: 5px;
+}
+
+.nav-logo {
+    margin: 5px;
+}
+
+.navbar-item-1 {
+    color: black;
+   /* height: 100%; */
+    padding: 0px 20px; 
+    text-decoration: none;
+}
+
+.nav-item-container-1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-info {
+    display:flex;
+    flex-direction: row;
+}
+
+.contact-info-container p {
+    display:flex;
+    flex-direction: column;
+}
+
+.logo-box {
+    display:flex;
+    flex-direction: row;
 }

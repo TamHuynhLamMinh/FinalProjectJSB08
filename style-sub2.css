@@ -34,7 +34,8 @@ body {
 }
 
 .input-field {
-    padding: 14px 0px;
+    padding: 8px 0px;
+    height: 117px;
 }
 
 input {
@@ -135,10 +136,10 @@ body {
     margin-right: 500px;
 } */
 
-.contact-info {
+/*.contact-info {
     margin-left: -33%;
     margin-top: 35px;
-}
+} */
 
 .logo {
     margin-right: 55%;
@@ -211,6 +212,16 @@ body h4 {
     background: #d9d9d9;
 }
 
-.select option {
+select option {
     color: grey;
+}
+
+select {
+    height: 39px;
+    padding: 15px 10px;
+    margin: 10px;
+}
+
+.input-field button {
+   margin: 25px;
 }

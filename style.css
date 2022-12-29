@@ -43,7 +43,7 @@
     padding-top: 32px;
 }
 p { 
-    margin: 0px 200px;
+    /* margin: 0px 20px;*/
     justify-content: center;
     text-align: center;
 }
@@ -83,7 +83,8 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: center;
-
+    height: 150px;
+    align-items: center;
 }
 
 /* .logo {
@@ -114,6 +115,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 100%;
 }
 
 .logo {
@@ -152,12 +154,13 @@ body {
 .contact-info {
     display:flex;
     flex-direction: row;
+    width: 70%;
 }
 
-.contact-info-container p {
+/*.contact-info-container p {
     display:flex;
     flex-direction: column;
-}
+} */
 
 .logo-box {
     display:flex;
@@ -167,3 +170,7 @@ body {
 /* .contact-info-container {
     margin-left: 20%;
 } */
+
+.logo {
+    width: 30%;
+}

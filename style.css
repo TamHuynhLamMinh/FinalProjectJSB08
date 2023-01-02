@@ -76,6 +76,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 50px;
 }
 
 .contact {
@@ -173,4 +174,35 @@ body {
 
 .logo {
     width: 30%;
+}
+
+.nav-item-container a {
+    text-transform: uppercase;
+    color: white;
+    height: 100%;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    float:left;
+}
+
+.member-container ul {
+    display:flex;
+    flex-direction: row;
+}
+
+.member-item p {
+    color: black;
+}
+
+.logo-box ul {
+    display:flex;
+    flex-direction: row;
+}
+
+.member-item a {
+    text-decoration: none;
 }

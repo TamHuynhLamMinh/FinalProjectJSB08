@@ -4,10 +4,7 @@
     box-sizing: border-box;
     font-family: 'Lora', serif;
     line-height: 1.5;
-    text-decoration: none;
 }
-
-
 .nav {
     color:white;
     background: linear-gradient(to right, #EE0979, #FF6A00); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
@@ -17,7 +14,7 @@
     justify-content: space-between;
     align-items: center;
     height: 60px;
-    position: fixed; 
+    position: fixed;
     top: 0;
 }
 
@@ -51,48 +48,8 @@ body {
     text-align: center;
 }
 
-.member-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.broadcast-container {
-    display: flex;
-    justify-content: space-around;
-}
-
-.broadcast {
-    background: #d9d9d9;
-    border-radius: 5%;
-    padding: 22px;
-}
-
-.broadcast h5{
-    font-size: 15px;
-}
-
-.broadcast img {
-    width: 250px;
-    margin-bottom: 10px;
-    margin-top: 12px;
-    border-radius: 5%;
-}
-
 .body h1 {
     padding: 25px;
-}
-
-.broadcast-button {
-    cursor: pointer;
-    width: 100px;
-    border: none;
-    color: white;
-    font-size: 15px;
-    padding: 5px 0px;
-    background: red; 
-    border-radius: 25px;
-    margin-top: 5px;
 }
 
 .nav-item-container h3 {
@@ -101,12 +58,31 @@ body {
     letter-spacing: 2px;
 }
 
-.broadcast-button:hover {
-    opacity : 0.5;
+.body img {
+    width: 100%;
+    height: auto;
 }
 
-.details-link {
-    color: white;
+.body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.body1 {
+    padding: 10px 20px;
+}
+
+.body h4 {
+    text-align: center;
+    margin-top: 25px;
+}
+
+.body p {
+    text-align: center;
+    margin-top: 10px;
+    width: 1200px;
 }
 
 .contact {
@@ -116,10 +92,10 @@ body {
     justify-content: center;
     height: 150px;
     align-items: center;
+    margin-top: 50px;
 }
 
 .logo img {
-    /* margin-left: 90px; */
     width: 130px;
 }
 
@@ -182,4 +158,22 @@ body {
 
 .logo {
     width: 30%;
+}
+
+.nav-item-container a {
+    text-transform: uppercase;
+    color: white;
+    height: 100%;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    float:left;
+}
+
+.logo-box ul {
+    display:flex;
+    flex-direction: row;
 }

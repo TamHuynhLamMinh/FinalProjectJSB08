@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="UTF-8">
+    <title>Tet for the movie</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="./registration.css">
+    <script src="https://www.w3schools.com/lib/w3.js"></script>
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap"
+        rel="stylesheet">
+    <body>
+        <div class="nav">
+            <div class="nav-item-container">
+                <a href="index-viet.html">Tet for the Movie</a>
+            </div>
+
+            <div class="nav-item-container">
+                <a href="./index-viet.html" class="navbar-item navbar-button">Trang chủ</a>
+                <a href="./sự-kiện.html" class="navbar-item navbar-button">Sự kiện</a>
+                <a href="./câu-chuyện.html" class="navbar-item navbar-button">Câu chuyện</a>
+                <a href="./đăng-ký.html" class="navbar-item navbar-button">Đăng ký</a>
+                <a href="./registration.html" class="navbar-item navbar-button">Tiếng Anh</a>
+            </div>
+        </div>
+
+        <div class="container margin-nav">
+            <div class="box">
+                <b style="font-size: 200%; text-transform: uppercase;">ĐĂNG KÝ</b>
+                <form name="RegisterForm" onsubmit="validateForm()">
+                    <div class="input-field">
+                        <h4>Họ và tên</h4>
+                        <input type="text" placeholder="Họ và tên của bạn"
+                            name="fname">
+                    </div>
+                    <div class="input-field">
+                        <h4>Tuổi</h4>
+                        <input type="number" placeholder="Tuổi của bạn"
+                            name="year">
+                    </div>
+                    <div class="input-field">
+                        <h4>Số điện thoại</h4>
+                        <input type="tel" placeholder="Số điện thoại của bạn"
+                            name="phone">
+                    </div>
+                    <div class="input-field">
+                        <h4>Email</h4>
+                        <input type="email" placeholder="Email của bạn"
+                            name="mail">
+                    </div>
+
+                    <div class="input-field">
+                        <p id="validate"></p>
+                        <button type="submit">Hoàn tất</button>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+            
+        <div class="contact row">
+            <div class="logo">
+                <img src="./img/TET FOR THE MOVIE_free-file.png">
+            </div>
+            <div class="contact-info">
+                    <div class="nav-item-container-1">
+                        <h4>Tet For The Movie</h4>
+                        <a href="./index-viet.html" class="navbar-item-1 navbar-button">Trang Chủ</a>
+                        <a href="./sự-kiện.html" class="navbar-item-1 navbar-button">Sự kiện</a>
+                        <a href="./câu-chuyện.html" class="navbar-item-1 navbar-button">Câu chuyện</a>
+                        <a href="./đăng-ký.html" class="navbar-item-1 navbar-button">Đăng ký</a>
+                    </div>
+                    <div class="nav-item-container-logo">
+                        <div class="container-logo">
+                            <h4>Liên hệ với chúng tôi</h4>
+                        </div>
+                        <div class="logo-box">
+                            <ul>
+                                <li>
+                                    <a class="follow-instagram" href="https://www.facebook.com/tam.huynhlamminh/" target="blank">
+                                        <div class="nav-logo">
+                                            <img src="./img/iconfb.png">
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="follow-instagram" href="https://www.instagram.com/_tammilij_/" target="blank">
+                                        <div class="nav-logo">
+                                            <img src="./img/iconinsta.png">
+                                        </div>
+                                    </a> 
+                                </li>
+                                <li>
+                                    <a class="follow-instagram" href="https://twitter.com/nhobqsocietyqa" target="blank">
+                                        <div class="nav-logo">
+                                            <img src="./img/iocntwit.png">
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="follow-instagram" href="https://www.tiktok.com/@nhobqsqua" target="blank">
+                                        <div class="nav-logo">
+                                            <img src="./img/icontik.png">
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="nav-item-container-1">
+                        <h4>Các mục khác</h4>
+                        <a href="./chi-tiết.html" class="navbar-item-1 navbar-button">Chi tiết phim</a>
+                        <a href="./đặt-lịch.html" class="navbar-item-1 navbar-button">Đặt lịch</a>
+                        <a href="./registration.html" class="navbar-item-1 navbar-button">Tiếng Anh</a>
+                    </div>
+                    <div class="contact-info-container">
+                        <b>Thông tin liện hệ</b>
+                        <p>Email: tetforthemovie@gmail.com</p>
+                        <p>Số điện thoại: 0123 456 789</p>
+                    </div>
+            </div>
+        </div>
+    </body>
+    <script src="script.js"></script>
+</html>

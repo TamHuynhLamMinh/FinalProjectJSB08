@@ -5,83 +5,6 @@
     font-family: 'Lora', serif;
     line-height: 1.5;
 }
-
-body {
-    background-repeat: no-repeat;
-    background: white; 
-    background-size: cover;
-    height: 100vh;
-    width: 100%;
-}
-
-.container {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    height: 100vh;
-    width: 100%;
-    flex-direction: column;
-}
-
-.box {
-    width: 800px;
-    padding: 15px 10px;
-    margin-bottom: 50px;
-    /* background-color: white;
-    box-shadow: 6px 5px 6px 6px rgb(0, 0, 0, 0.20);
-    border-radius: 12px;
-    padding: 3.5rem;*/
-}
-
-.input-field {
-    padding: 8px 0px;
-    height: 107px;
-
-}
-
-input {
-    width: 80%;
-    border: none;
-    border-bottom: 2px solid #d9d9d9;
-    outline: none;
-    font-size: 18px;
-    background: #d9d9d9;
-}
-
-button {
-    cursor:pointer;
-    width: 320px;
-    border: none;
-    color: white;
-    font-size: 22px;
-    padding: 5px 0px;
-    background: linear-gradient(to right, #EE0979, #FF6A00); 
-    border-radius: 25px;
-}
-
-form {
-    background-color: white;
-}
-
-.input-field p {
-    cursor: pointer;
-    font-style: italic;
-}
-
-button:hover {
-    opacity : 0.5;
-}
-
-label {
-    position: relative;
-    top: 0px;
-    right: 500px;
-    bottom: 0;
-    left: -300px;
-    height: 40px;
-    width: 40px;
-}
-
 .nav {
     color:white;
     background: linear-gradient(to right, #EE0979, #FF6A00); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
@@ -91,14 +14,8 @@ label {
     justify-content: space-between;
     align-items: center;
     height: 60px;
-    position: fixed;
-    top: 0;
+    /* position: fixed; */
 }
-
-.margin-nav {
-    margin-top: 150px;
-}
-
 .navbar-item{
     color: white;
     height: 100%;
@@ -151,11 +68,9 @@ body {
     padding: 10px 20px;
 }
 
-body h4 {
-    text-align: left;
-    margin-top: 15px;
-    font-size: 18px; 
-    padding-left: 80px;
+.body h4 {
+    text-align: center;
+    margin-top: 25px;
 }
 
 .body p {
@@ -164,39 +79,83 @@ body h4 {
     width: 1200px;
 }
 
-.contaner h3 {
-    text-transform: uppercase;
-}
-
-::placeholder {
-    color: grey;
-}
-
-.input-field input {
+.bottom {
     margin-top: 10px;
-    padding:5px;
-
+    background-color: white;
+    color: #EE0979;
 }
 
-.container select {
-    width: 80%;
-    border: none;
-    border-bottom: 2px solid #d9d9d9;
-    outline: none;
-    font-size: 18px;
-    background: #d9d9d9;
+.button1 {
+    background-image: linear-gradient(135deg, #EE0979, #FF6A00);
+    border-radius: 6px;
+    box-sizing: border-box;
+    color: black;
+    display: block;
+    height: 50px;
+    font-size: 1em;
+    font-weight: 500;
+    padding: 4px;
+    position: relative;
+    text-decoration: none;
+    width: 7em;
+    z-index: 2;
+}
+  
+.button1:hover {
+    color: #fff;
+}
+  
+.button1 .btn1 {
+    align-items: center;
+    background: white;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    transition: background 0.5s ease;
+    width: 100%;
+}
+  
+.button1:hover .btn1 {
+    background: transparent;
 }
 
-select option {
-    color: grey;
+.a {
+    width: 1000px;
+    height: 1px;
+    background-color: black;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 25px;
 }
 
-select {
-    height: 39px; 
+.main-head {
+    margin-top: 25px;
 }
 
-.input-field button {
-   margin: 25px;
+.main-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    text-align: left;
+    padding: 15px 10px;
+}
+
+.main-info {
+    display:flex;
+    flex-direction: row;
+    padding: 15px 10px;
+    justify-content: left;
+}
+
+.main-img img {
+    width: 200px;
+    height: 220px;
+    padding: 15px 10px;
+    border-radius: 25px;
 }
 
 .contact {
@@ -206,6 +165,7 @@ select {
     justify-content: center;
     height: 150px;
     align-items: center;
+    margin-top: 40px;
 }
 
 .logo img {
@@ -269,4 +229,22 @@ select {
 
 .logo {
     width: 30%;
+}
+
+.nav-item-container a {
+    text-transform: uppercase;
+    color: white;
+    height: 100%;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    float:left;
+}
+
+.logo-box ul {
+    display:flex;
+    flex-direction: row;
 }

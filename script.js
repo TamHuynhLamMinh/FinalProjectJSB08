@@ -11,15 +11,6 @@ function myFunction() {
     document.getElementById("validate").innerHTML = text;
   }
 
-
-function validateForm() {
-    let x = document.forms["RegisterForm"]["fname"].value;
-    if (x == "") {
-      alert("Name must be filled out");
-      return false;
-    }
-  }
-
   function validateForm() {
     let x = document.forms["RegisterForm"]["fname"].value;
     if (x == "") {
@@ -35,27 +26,49 @@ function validateForm() {
       alert("Invalid email")
       return false
     } 
-  }
     let phone = document.forms["RegisterForm"]["phone"].value;
     if (phone == "") {
       alert("Phone number must be filled out");
       return false;
     }
+    if (validatePhoneNumber(phone)== false) {
+      alert("Invalid  number")
+      return false
+    }
+    alert("Success")
+    return true
+  }
     
 function ValidateEmail(mail) 
 {
- if (/^[a-z][a-z0-9_\.]{5,32}@[a-z0-9]{2,}(\.[a-z0-9]{2,4}){1,2}$/.test(mail))
-  {
-    return (true)
+  let check = mail.indexOf("@");
+  if (check == -1) {
+    return false;
   }
-    return (false)
+
+  let temp = mail.substr(check, mail.length - check);
+  if (temp.indexOf(".") == -1) {
+    return false;
+  }
+  
+  return true;
 }
 
 function validatePhoneNumber(phone) 
 {
- if (/^\(?([0-9]{3})\)?[-. ]?([0-9]{3})[-. ]?([0-9]{4})$/.test(phone))
-  {
-    return (true)
+  document.getElementById("test").innerHTML = phone;
+  let count = phone.length;
+  if (count != 10) {
+    return false;
   }
-  return (false)
+
+  if (isNaN(phone) == true) {
+    return false;
+  }
+
+  if (phone[0] != 0) {
+    return false;
+  }
+
+  return true; 
 }

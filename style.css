@@ -207,3 +207,7 @@ ul {
 .member-item a {
     text-decoration: none;
 }
+
+.slides {
+    height: 500px;
+}

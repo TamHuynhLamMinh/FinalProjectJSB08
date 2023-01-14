@@ -7,7 +7,7 @@
 }
 .nav {
     color:white;
-    background: linear-gradient(to right, #EE0979, #FF6A00); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, #EE0979, #FF6A00); 
     width: 100%;
     padding: 10px;
     display: flex;
